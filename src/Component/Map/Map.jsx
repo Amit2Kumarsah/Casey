@@ -28,7 +28,6 @@ function Map({lag, lat}) {
       }}
     >
       <TileLayer
-        attribution='&copy; OpenStreetMap contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <Marker position={position}>
